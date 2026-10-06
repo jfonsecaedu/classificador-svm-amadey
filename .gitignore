@@ -1,0 +1,63 @@
+# Amostras de malware e benignas
+amadey_samples/
+benign_samples/
+benign_samples_full_1082/
+benign_samples_200/
+descartados_ole/
+
+# Binários e arquivos perigosos
+*.exe
+*.dll
+*.bin
+*.zip
+*.rar
+*.7z
+
+# Saídas brutas do PE_Analyzer (contém fragmentos extraídos)
+outputs_pescanner/
+
+# Repositórios de terceiros (referenciar via Git Clone)
+SVM/
+PE_Analyzer/
+DikeDataset/
+
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Arquivos temporários e intermediários (não essenciais)
+dataset_amadey_unix.csv
+dataset_sem_hash.csv
+dataset_pontovirgula.csv
+dataset_final.csv
+dataset_amadey_pontovirgula.csv
+dataset_sem_hash_convertido.csv
+
+hashes_com_falha.txt
+lista_benignas_pe.txt
+
+# Logs e arquivos do sistema
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.vscode/
+.idea/
+
+# Arquivos gerados durante o processamento
+*.tmp
+*.temp
+*.cache
+.pytest_cache/
